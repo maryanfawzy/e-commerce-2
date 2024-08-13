@@ -362,6 +362,53 @@ footer {
   }
   
   
+/*small phones, taplet, large smart phones*/
+@media (max-width: 760px) {
+  .header__descreption {
+    padding: 0 24px;
+  }
+  .h1 {
+    font-size: 40px;
+  }
+  .h2 {
+    font-size: 26px;
+  }
+  bottom {
+    font-size: 18px;
+  }
+  .book {
+    width: 50%;
+  }
+}
+
+/*small phones, Large smart phones*/
+
+@media (max-width: 550px) {
+  .nav-links {
+    display: none;
+  }
+  .btn__menu {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  .highlight {
+    width: 100%;
+  }
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+.book__img__container {
+  max-width: 167px;
+  max-height: 220px;
+  width: 100%;
+  height: 100%;
+  max-height: 40px;
+  margin-bottom: 24px;
+  padding: 20px;
+}
 
 
 
